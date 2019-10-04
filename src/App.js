@@ -28,7 +28,7 @@ constructor(props){
   };
   this.onAdd = this.onAdd.bind(this);
   this.onDelete = this.onDelete.bind(this);
-  this.onEditSub = this.onEditSub(this);
+  this.onEditSub = this.onEditSub.bind(this);
 }
 
 
